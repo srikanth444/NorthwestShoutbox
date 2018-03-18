@@ -2,13 +2,13 @@
 
 1. Download Heroku CLI: https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku
 2. Commands:
->>	heroku login
->>	git init
->>	git add .
->>	git commit -m "First Commit"
->>	heroku create <app-name>
->>	git push heroku master
->>	heroku open
+>>	1. heroku login
+>>	2. git init
+>>	3. git add .
+>>	4. git commit -m "First Commit"
+>>	5. heroku create <app-name>
+>>	6. git push heroku master
+>>	7. heroku open
 
 ------> Now the website should work if you do not have any databases in it
 ------> To Enably MySQL Database: (This adds Postgres database addon)
